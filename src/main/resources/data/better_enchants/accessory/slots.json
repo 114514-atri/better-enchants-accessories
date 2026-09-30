@@ -1,0 +1,81 @@
+{
+	"rules": {
+		"namespace_only": "better_enchants",
+		"require_tag": "better_enchants:accessory/any",
+		"reject_other_mods": true
+	},
+	"slots": [
+		{
+			"id": "head",
+			"order": 0,
+			"icon": "better_enchants:gui/accessory/head",
+			"allowed_tag": "better_enchants:accessory/head"
+		},
+		{
+			"id": "face",
+			"order": 1,
+			"icon": "better_enchants:gui/accessory/face",
+			"allowed_tag": "better_enchants:accessory/face"
+		},
+		{
+			"id": "necklace",
+			"order": 2,
+			"icon": "better_enchants:gui/accessory/necklace",
+			"allowed_tag": "better_enchants:accessory/necklace"
+		},
+		{
+			"id": "back",
+			"order": 3,
+			"icon": "minecraft:item/elytra",
+			"allowed_tag": "better_enchants:accessory/back"
+		},
+		{
+			"id": "aura",
+			"order": 4,
+			"icon": "better_enchants:gui/accessory/aura",
+			"allowed_tag": "better_enchants:accessory/aura"
+		},
+		{
+			"id": "ring",
+			"order": 5,
+			"icon": "better_enchants:gui/accessory/ring",
+			"allowed_tag": "better_enchants:accessory/ring"
+		},
+		{
+			"id": "bracelet",
+			"order": 6,
+			"icon": "better_enchants:gui/accessory/bracelet",
+			"allowed_tag": "better_enchants:accessory/bracelet"
+		},
+		{
+			"id": "belt",
+			"order": 7,
+			"icon": "better_enchants:gui/accessory/belt",
+			"allowed_tag": "better_enchants:accessory/belt"
+		},
+		{
+			"id": "charm",
+			"order": 8,
+			"icon": "better_enchants:gui/accessory/charm",
+			"allowed_tag": "better_enchants:accessory/charm"
+		},
+		{
+			"id": "shield",
+			"order": 9,
+			"icon": "better_enchants:gui/accessory/shield",
+			"allowed_tag": "better_enchants:accessory/shield"
+		},
+		{
+			"id": "divinity",
+			"order": 10,
+			"icon": "minecraft:item/nether_star",
+			"allowed_tag": "better_enchants:accessory/divinity"
+		},
+		{
+			"id": "banner",
+			"order": 11,
+			"icon": "minecraft:item/white_banner",
+			"allowed_tag": "better_enchants:accessory/banner"
+		}
+	]
+}

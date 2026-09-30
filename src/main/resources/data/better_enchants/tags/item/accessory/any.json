@@ -1,0 +1,18 @@
+{
+	"replace": false,
+	"values": [
+		"better_enchants:accessory_head",
+		"better_enchants:accessory_face",
+		"better_enchants:accessory_necklace",
+		"better_enchants:accessory_ring",
+		"better_enchants:accessory_bracelet",
+		"better_enchants:accessory_belt",
+		"better_enchants:accessory_charm",
+		"better_enchants:accessory_aura",
+		"better_enchants:accessory_shield",
+		"#better_enchants:accessory/back",
+		"better_enchants:sun_moon_radiance",
+		"#better_enchants:accessory/divinity",
+		"#better_enchants:accessory/banner"
+	]
+}
