@@ -1,5 +1,7 @@
 package com.betterenchants.accessory;
 
+import com.betterenchants.compat.TouhouCompat;
+
 import com.betterenchants.BetterEnchantsMod;
 import com.betterenchants.challenge.MobAffixHolder;
 import com.betterenchants.compat.OptionalPrivateHooks;
@@ -206,6 +208,7 @@ public final class AccessoryMechanics {
 
 	private static void tickBelt(ServerPlayerEntity player, Set<String> ids) {
 		boolean hasBelt = ids.contains("belt");
+		boolean flightOk = hasBelt && !TouhouCompat.blocksFlight(player);
 		Boolean was = BELT_FLIGHT.get(player.getUuid());
 		if (hasBelt) {
 			player.getHungerManager().setFoodLevel(20);
